@@ -186,6 +186,7 @@ circle {
     font-family: 'Playfair Display', sans-serif;
 }
 .main__content-info .main-title h1{
+    font-weight: 400;
     font-size: 60px;
     letter-spacing: 0.72px;
 }
@@ -245,7 +246,7 @@ circle {
 
 /* Catalog start */
 .catalog{
-    padding: 122px 0;
+    padding: 122px 0 92px;
 }
 .catalog .catalog-info{
     text-align: center;
@@ -254,6 +255,7 @@ circle {
     gap: 23px;
 }
 .catalog-info .catalog-title{
+    font-weight: 400;
     color: #222;
     font-family: "Playfair Display";
     font-size: 60px;
@@ -293,7 +295,7 @@ circle {
     align-items: center;
     justify-content: space-between;
     padding: 0px 8px;
-    bottom: 20px;
+    bottom: 10px;
     left: 50%;
     transform: translate(-50%);
     border-radius: 8px;
@@ -312,7 +314,7 @@ circle {
     position: absolute;
     opacity: 0;
     pointer-events: none;
-    bottom: 20px;
+    bottom: 10px;
     left: 50%;
     transform: translate(-50%);
     width: 95%;
@@ -359,3 +361,284 @@ circle {
     pointer-events: none;
 }
 /* Catalog end */
+
+/* About start */
+.about{
+    padding: 150px 0;
+    background-image: url(../images/about-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about .about-info{
+    margin-bottom: 57px;
+}
+.about-info .about-info-text{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.about-info-text .about-title{
+    font-weight: 400;
+    color: #FFF;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 60px;
+    letter-spacing: 0.72px;
+}
+.about-info-text .about-text{
+    max-width: 500px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.24px;
+}
+.swiper-button-next:after, 
+.swiper-button-prev:after{
+    display: none;
+}
+.about-slide .about-slide-img,
+.about-slide .about-slide-img img{
+    width: 100%;
+}
+.about-slide{
+    position: relative;
+}
+.about-slide .about-slide-info{
+    position: absolute;
+    left: 13px;
+    bottom: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 325px;
+    padding: 0px 14px;
+    gap: 26px;
+    border-radius: 8px;
+    background: rgba(165, 46, 68, 0.40);
+    backdrop-filter: blur(3.5px);
+    height: 51px;
+}
+.about-slide .about-slide-info .about-slide-text{
+    max-width: 220px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 300;
+}
+.about-boxs .about-box-title{
+    margin-bottom: 25px;
+    color: #FFF;
+    font-family: "Playfair Display";
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0.48px;
+}
+.about-boxs .about-box{
+    border-radius: 8px;
+    background: rgba(165, 46, 68, 0.40);
+    backdrop-filter: blur(5px);
+    padding: 18px 26px 17px 20px;
+}
+.about-boxs .about-box .about-box-text{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 300;
+}
+/* About end */
+
+/* Work start */
+.work{
+    padding-top: 122px;
+}
+.work .work-title{
+    color: #222;
+    font-family: "Playfair Display";
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 0.72px;
+    margin-bottom: 37px;
+}
+.work-content .work-flower-img {
+    margin-left: -143px;
+    object-fit: contain;
+}
+.work-content .work-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 47px;
+    margin-top: 40px;
+}
+.work-cards .work-card{
+    position: relative;
+    padding: 12px 30px 26px 32px;
+    border-radius: 10px;
+    background: #F1F1F1;
+    display: flex;
+    flex-direction: column;
+}
+.work-cards .work-card .work-card-number{
+    position: absolute;
+    right: -42px;
+    top: -55px;
+    color: #222;
+    font-family: "Playfair Display";
+    font-size: 100px;
+    letter-spacing: 1.2px;
+}
+.work-cards .work-card .work-card-title{
+    color: #222;
+    font-family: "Playfair Display";
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0.48px;
+    margin-bottom: 21px;
+}
+.work-cards .work-card .work-card-text{
+    color: #222;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.24px;
+    margin-bottom: 31px;
+    max-width: 538px;
+}
+.work-card .work-card-info{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+.work-card .work-card-info .work-card-link{
+    width: 283.207px;
+    height: 58px;
+    border-radius: 10px;
+    background: #A52E44;
+    color: #FFF;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #A52E44;
+}
+.work-card .work-card-info .work-card-link:hover{
+    background-color: transparent;
+    color: #A52E44;
+}
+.work-card-info .work-card-num{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #222;
+    font-size: 20px;
+}
+/* Work end */
+
+/* Location start */
+.location{
+    position: relative;
+}
+.location-wrap iframe{
+    height: 630px;
+    width: 100%;
+}
+.location .container{
+    position: absolute;
+    top: 83px;
+    left: 63%;
+    max-width: 800px;
+    transform: translate(-50%);
+}
+.location .location-content{
+    display: flex;
+    align-items: start;
+    justify-content: end;
+}
+.location-content .footer-phone{
+    margin-right: -100px;
+    z-index: 2;
+    margin-top: -20px;
+}
+.location-content .location-info{
+    border-radius: 8px;
+    background: rgba(165, 46, 68, 0.40);
+    backdrop-filter: blur(5px);
+    padding: 32px 40px 47px;
+}
+.location-info .location-title{
+    color: #FFF;
+    font-family: "Playfair Display";
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0.48px;
+}
+.location-info .location-nums{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 10px;
+}
+.location-info .location-num{
+    color: #FFF;
+    font-size: 20px;
+}
+.location-info .footer-socicials{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 25px;
+}
+.location-info .footer-socicials .ftr-socicial-link{
+    color: #FFF;
+    font-size: 20px;
+}
+.location-info .footer-address{
+    display: flex;
+    align-items: start;
+    gap: 15px;
+    margin-top: 36px;
+}
+.location-info .footer-address p{
+    color: #FFF;
+    max-width: 405px;
+    font-size: 20px;
+}
+.location-info .footer-text{
+    margin-top: 12px;
+    margin-bottom: 14px;
+    color: #FFF;
+    font-size: 16px;
+    max-width: 370px;
+}
+.location-info .footer-link{
+    border-radius: 10px;
+    background: #A52E44;
+    width: 283.207px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 16px;
+}
+/* Location end */
+
+/* Foooter start */
+footer{
+    padding: 33px 0;
+    background: #222;
+}
+footer .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.footer-content .footer-links{
+    display: flex;
+    align-items: center;
+    gap: 95px;
+}
+.footer-content .footer-link,
+.footer-content .footer-copyright{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* Foooter end */
