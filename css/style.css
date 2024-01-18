@@ -618,6 +618,270 @@ circle {
 }
 /* Location end */
 
+/* Registration modal */
+.registration-modal .modal-content{
+    border-radius: 5px;
+    background: #F8F8F8;
+    border: 0;
+}
+.registration-modal .modal-body{
+    padding: 27px 51px 33px;
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+}
+.registration-modal .registration-modal-title{
+    color: #222;
+    font-family: "Playfair Display";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 132.5%;
+}
+.registration-modal .modal-inp-form{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    margin-bottom: 20px;
+}
+.registration-modal .modal-inp-form .register-modal-inp{
+    border-radius: 4px;
+    background: #E7E7E7;
+    width: 100%;
+    padding: 27px;
+    border: none;
+    color: #222;
+    font-size: 20px;
+    font-weight: 300;
+    height: 75px;
+    letter-spacing: 0.24px;
+}
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.registration-modal .register-modal-btn{
+    border-radius: 10px;
+    background: #A52E44;
+    border: 1px solid #A52E44;
+    height: 65px;
+    width: 100%;
+    padding: 24px;
+    color: #FFF;
+    font-size: 16px;
+    margin-bottom: 22px;
+}
+.registration-modal .register-modal-btn:hover{
+    background-color: transparent;
+    color: #A52E44;
+}
+.registration-modal .register-modal-btn .register-modal-text{
+    color: #222;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.168px;
+}
+.registration-modal .modal__close{
+    position: absolute;
+    top: -35px;
+    right: -60px;
+    width: 33px;
+    height: 33px;
+    background-color: transparent;
+    color: #FFF;
+}
+
+/* Greenhouse modal */
+.greenhouses-modal .modal-body{
+    padding: 27px 38px 33px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.greenhouses-modal .modal-dialog{
+    max-width: 570px;
+    padding: 30px 0;
+}
+.greenhouses-modal .greenhouses-modal-img{
+    width: 100%;
+    margin: 20px 0px 30px;
+}
+
+/* Builder modal */
+.builder-modal .modal__close{
+    position: absolute;
+    top: -55px;
+    right: -55px;
+    background-color: transparent;
+}
+.builder-modal .modal-dialog{
+    padding: 50px 0;
+}
+.builder-modal .modal-body{
+    padding: 53px 68px;
+    display: flex;
+    align-items: start;
+    gap: 33px;
+}
+.builder-modal .builder-slider{
+    width: 50%;
+}
+.builder-slider .swiper__slide-mini {
+    margin-top: 15px;
+    width: 100px !important;
+    height: 94px;
+    margin-right: 15px !important;
+}
+.swiper__slide-mini img{
+    width: 100px;
+    border-radius: 10px;
+    height: 100%;
+}
+.builder-slider .swiper-wrapper-mini{
+    overflow: auto;
+}
+.builder-slider .swiper-slide img{
+    width: 100%;
+    cursor: pointer;
+}
+.builder-modal .builder-info{
+    display: flex;
+    flex-direction: column;
+}
+.builder-info .builder-modal-title{
+    color: #222;
+    margin-bottom: 36px;
+    font-family: "Playfair Display";
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 65px; /* 108.333% */
+    letter-spacing: 0.72px;
+}
+.builder-info .builder-price{
+    color: #222;
+    font-size: 30px;
+    margin-bottom: 17px;
+}
+.builder-info .builder-link{
+    border-radius: 10px;
+    background: #A52E44;
+    border: 1px solid #A52E44;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 16px;
+    margin-bottom: 48px;
+}
+.builder-info .builder-link:hover{
+    background-color: transparent;
+    color: #A52E44;
+}
+.builder-info .builder-texts{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 98px;
+    gap: 25px;
+}
+.builder-info .builder-text{
+    color: #222;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.24px;
+}
+.builder-info .builder-info-full{
+    color: #222;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.24px;
+}
+
+
+/* Order modal */
+.order-modal .modal-dialog{
+    max-width: 570px;
+}
+.order-modal .modal-body{
+    gap: 0px;
+}
+.order-modal .registration-modal-title{
+    border-bottom: 1px solid #848484;
+}
+.order-modal .order-boxs{
+    display: flex;
+    flex-direction: column;
+}
+.order-modal .order-box{
+    border-bottom: 1px solid #848484;
+    padding: 17px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.order-box .order-box-img{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+.order-box .order-box-img span{
+    max-width: 107px;
+    color: #222;
+    font-family: "Playfair Display";
+    font-size: 26px;
+    letter-spacing: 0.312px;
+}
+.order-box .order-buy{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+.order-box .modal__buy-price-spn{
+    color: #222;
+    font-size: 24px;
+}
+.order-box .modal__buy-count{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 10px;
+    border-radius: 10px;
+    background: #E7E7E7;
+    height: 48px;
+    width: 111px;
+}
+.order-box .modal__buy-count .modal__buy-count-btn,
+.order-box .modal__buy-count .resultCount{
+    background-color: transparent;
+    color: #222;
+    font-size: 20px;
+}
+.order-boxs .order-discount{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    padding: 18px 0px 33px;
+}
+.order-boxs .order-discount .discount-price{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 5px;
+}
+.order-discount .discount-price b{
+    color: #222;
+    font-size: 28px;
+    font-weight: 400;
+}
+.order-discount .discount-price span{
+    color: #B3B3B3;
+    font-size: 28px;
+    text-decoration: line-through;
+}
+.order-boxs .order-discount p{
+    color: #222;
+    font-size: 16px;
+    font-weight: 700;
+}
 /* Foooter start */
 footer{
     padding: 33px 0;
@@ -640,5 +904,4 @@ footer .footer-content{
     font-size: 16px;
     font-weight: 300;
 }
-
 /* Foooter end */

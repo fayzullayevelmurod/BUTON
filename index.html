@@ -4,7 +4,6 @@
 <head>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen">
     <link rel="stylesheet" type="text/css" href="css/swiper-bundle.min.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" media="screen">
     <link rel="stylesheet" type="text/css" href="fonts/comforta/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="fonts/playfair/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
@@ -49,7 +48,7 @@
             <section class="main-sec">
                 <div class="container">
                     <div class="main-content">
-                        <a href="#!" class="main-shop-link">
+                        <a href="#!" class="main-shop-link" data-bs-toggle="modal" data-bs-target="#orderModal">
                             <img src="images/icons/shop.svg" alt="">
                             <span>1</span>
                         </a>
@@ -66,7 +65,7 @@
                                 <span>Доставка цветов & Система оптовых скидок</span>
                             </div>
                             <div class="main__content-btns">
-                                <a href="#!" class="main-btn main-btn1">Оставить заявку</a>
+                                <a href="#!" class="main-btn main-btn1" data-bs-toggle="modal" data-bs-target="#registerModal">Оставить заявку</a>
                                 <a href="#!" class="main-btn main-btn2">Перейти к каталогу</a>
                             </div>
                         </div>
@@ -103,9 +102,8 @@
                                         <div class="catalog-service">
                                             <h3 class="catalog-service-title">Creme Flag</h3>
                                             <div class="catalog-card-btns">
-                                                <a href="#!" class="catalog-card-btn catalog-card-btn1">Подробнее</a>
-                                                <a href="#!" class="catalog-card-btn catalog-card-btn2">Добавить в
-                                                    корзину</a>
+                                                <a href="#!" class="catalog-card-btn catalog-card-btn1" data-bs-toggle="modal" data-bs-target="#builderModal">Подробнее</a>
+                                                <a href="#!" class="catalog-card-btn catalog-card-btn2">Добавить в корзину</a>
                                             </div>
                                         </div>
                                     </div>
@@ -122,7 +120,7 @@
                                         <div class="catalog-service">
                                             <h3 class="catalog-service-title">Columbus</h3>
                                             <div class="catalog-card-btns">
-                                                <a href="#!" class="catalog-card-btn catalog-card-btn1">Подробнее</a>
+                                                <a href="#!" class="catalog-card-btn catalog-card-btn1" data-bs-toggle="modal" data-bs-target="#builderModal">Подробнее</a>
                                                 <a href="#!" class="catalog-card-btn catalog-card-btn2">Добавить в
                                                     корзину</a>
                                             </div>
@@ -141,7 +139,7 @@
                                         <div class="catalog-service">
                                             <h3 class="catalog-service-title">Body Builder</h3>
                                             <div class="catalog-card-btns">
-                                                <a href="#!" class="catalog-card-btn catalog-card-btn1">Подробнее</a>
+                                                <a href="#!" class="catalog-card-btn catalog-card-btn1" data-bs-toggle="modal" data-bs-target="#builderModal">Подробнее</a>
                                                 <a href="#!" class="catalog-card-btn catalog-card-btn2">Добавить в
                                                     корзину</a>
                                             </div>
@@ -160,7 +158,7 @@
                                         <div class="catalog-service">
                                             <h3 class="catalog-service-title">First Price</h3>
                                             <div class="catalog-card-btns">
-                                                <a href="#!" class="catalog-card-btn catalog-card-btn1">Подробнее</a>
+                                                <a href="#!" class="catalog-card-btn catalog-card-btn1" data-bs-toggle="modal" data-bs-target="#builderModal">Подробнее</a>
                                                 <a href="#!" class="catalog-card-btn catalog-card-btn2">Добавить в
                                                     корзину</a>
                                             </div>
@@ -179,7 +177,7 @@
                                         <div class="catalog-service">
                                             <h3 class="catalog-service-title">First Class</h3>
                                             <div class="catalog-card-btns">
-                                                <a href="#!" class="catalog-card-btn catalog-card-btn1">Подробнее</a>
+                                                <a href="#!" class="catalog-card-btn catalog-card-btn1" data-bs-toggle="modal" data-bs-target="#builderModal">Подробнее</a>
                                                 <a href="#!" class="catalog-card-btn catalog-card-btn2">Добавить в
                                                     корзину</a>
                                             </div>
@@ -198,7 +196,7 @@
                                         <div class="catalog-service">
                                             <h3 class="catalog-service-title">Felicidad H.G</h3>
                                             <div class="catalog-card-btns">
-                                                <a href="#!" class="catalog-card-btn catalog-card-btn1">Подробнее</a>
+                                                <a href="#!" class="catalog-card-btn catalog-card-btn1" data-bs-toggle="modal" data-bs-target="#builderModal">Подробнее</a>
                                                 <a href="#!" class="catalog-card-btn catalog-card-btn2">Добавить в
                                                     корзину</a>
                                             </div>
@@ -217,7 +215,7 @@
                                         <div class="catalog-service">
                                             <h3 class="catalog-service-title">Esta Bonita</h3>
                                             <div class="catalog-card-btns">
-                                                <a href="#!" class="catalog-card-btn catalog-card-btn1">Подробнее</a>
+                                                <a href="#!" class="catalog-card-btn catalog-card-btn1" data-bs-toggle="modal" data-bs-target="#builderModal">Подробнее</a>
                                                 <a href="#!" class="catalog-card-btn catalog-card-btn2">Добавить в
                                                     корзину</a>
                                             </div>
@@ -236,7 +234,7 @@
                                         <div class="catalog-service">
                                             <h3 class="catalog-service-title">De Dijk: Aomori</h3>
                                             <div class="catalog-card-btns">
-                                                <a href="#!" class="catalog-card-btn catalog-card-btn1">Подробнее</a>
+                                                <a href="#!" class="catalog-card-btn catalog-card-btn1" data-bs-toggle="modal" data-bs-target="#builderModal">Подробнее</a>
                                                 <a href="#!" class="catalog-card-btn catalog-card-btn2">Добавить в
                                                     корзину</a>
                                             </div>
@@ -255,7 +253,7 @@
                                         <div class="catalog-service">
                                             <h3 class="catalog-service-title">Strong Gold H.G</h3>
                                             <div class="catalog-card-btns">
-                                                <a href="#!" class="catalog-card-btn catalog-card-btn1">Подробнее</a>
+                                                <a href="#!" class="catalog-card-btn catalog-card-btn1" data-bs-toggle="modal" data-bs-target="#builderModal">Подробнее</a>
                                                 <a href="#!" class="catalog-card-btn catalog-card-btn2">Добавить в
                                                     корзину</a>
                                             </div>
@@ -274,7 +272,7 @@
                                         <div class="catalog-service">
                                             <h3 class="catalog-service-title">Pink Ardour</h3>
                                             <div class="catalog-card-btns">
-                                                <a href="#!" class="catalog-card-btn catalog-card-btn1">Подробнее</a>
+                                                <a href="#!" class="catalog-card-btn catalog-card-btn1" data-bs-toggle="modal" data-bs-target="#builderModal">Подробнее</a>
                                                 <a href="#!" class="catalog-card-btn catalog-card-btn2">Добавить в
                                                     корзину</a>
                                             </div>
@@ -293,7 +291,7 @@
                                         <div class="catalog-service">
                                             <h3 class="catalog-service-title">Orange Sherpa</h3>
                                             <div class="catalog-card-btns">
-                                                <a href="#!" class="catalog-card-btn catalog-card-btn1">Подробнее</a>
+                                                <a href="#!" class="catalog-card-btn catalog-card-btn1" data-bs-toggle="modal" data-bs-target="#builderModal">Подробнее</a>
                                                 <a href="#!" class="catalog-card-btn catalog-card-btn2">Добавить в
                                                     корзину</a>
                                             </div>
@@ -312,7 +310,7 @@
                                         <div class="catalog-service">
                                             <h3 class="catalog-service-title">Mascara</h3>
                                             <div class="catalog-card-btns">
-                                                <a href="#!" class="catalog-card-btn catalog-card-btn1">Подробнее</a>
+                                                <a href="#!" class="catalog-card-btn catalog-card-btn1" data-bs-toggle="modal" data-bs-target="#builderModal">Подробнее</a>
                                                 <a href="#!" class="catalog-card-btn catalog-card-btn2">Добавить в
                                                     корзину</a>
                                             </div>
@@ -331,7 +329,7 @@
                                         <div class="catalog-service">
                                             <h3 class="catalog-service-title">Luba</h3>
                                             <div class="catalog-card-btns">
-                                                <a href="#!" class="catalog-card-btn catalog-card-btn1">Подробнее</a>
+                                                <a href="#!" class="catalog-card-btn catalog-card-btn1" data-bs-toggle="modal" data-bs-target="#builderModal">Подробнее</a>
                                                 <a href="#!" class="catalog-card-btn catalog-card-btn2">Добавить в
                                                     корзину</a>
                                             </div>
@@ -350,7 +348,7 @@
                                         <div class="catalog-service">
                                             <h3 class="catalog-service-title">Lobke</h3>
                                             <div class="catalog-card-btns">
-                                                <a href="#!" class="catalog-card-btn catalog-card-btn1">Подробнее</a>
+                                                <a href="#!" class="catalog-card-btn catalog-card-btn1" data-bs-toggle="modal" data-bs-target="#builderModal">Подробнее</a>
                                                 <a href="#!" class="catalog-card-btn catalog-card-btn2">Добавить в
                                                     корзину</a>
                                             </div>
@@ -369,7 +367,7 @@
                                         <div class="catalog-service">
                                             <h3 class="catalog-service-title">Kay</h3>
                                             <div class="catalog-card-btns">
-                                                <a href="#!" class="catalog-card-btn catalog-card-btn1">Подробнее</a>
+                                                <a href="#!" class="catalog-card-btn catalog-card-btn1" data-bs-toggle="modal" data-bs-target="#builderModal">Подробнее</a>
                                                 <a href="#!" class="catalog-card-btn catalog-card-btn2">Добавить в
                                                     корзину</a>
                                             </div>
@@ -388,7 +386,7 @@
                                         <div class="catalog-service">
                                             <h3 class="catalog-service-title">Kamaliya</h3>
                                             <div class="catalog-card-btns">
-                                                <a href="#!" class="catalog-card-btn catalog-card-btn1">Подробнее</a>
+                                                <a href="#!" class="catalog-card-btn catalog-card-btn1" data-bs-toggle="modal" data-bs-target="#builderModal">Подробнее</a>
                                                 <a href="#!" class="catalog-card-btn catalog-card-btn2">Добавить в
                                                     корзину</a>
                                             </div>
@@ -407,7 +405,7 @@
                                         <div class="catalog-service">
                                             <h3 class="catalog-service-title">Kadima</h3>
                                             <div class="catalog-card-btns">
-                                                <a href="#!" class="catalog-card-btn catalog-card-btn1">Подробнее</a>
+                                                <a href="#!" class="catalog-card-btn catalog-card-btn1" data-bs-toggle="modal" data-bs-target="#builderModal">Подробнее</a>
                                                 <a href="#!" class="catalog-card-btn catalog-card-btn2">Добавить в
                                                     корзину</a>
                                             </div>
@@ -426,7 +424,7 @@
                                         <div class="catalog-service">
                                             <h3 class="catalog-service-title">Sissi</h3>
                                             <div class="catalog-card-btns">
-                                                <a href="#!" class="catalog-card-btn catalog-card-btn1">Подробнее</a>
+                                                <a href="#!" class="catalog-card-btn catalog-card-btn1" data-bs-toggle="modal" data-bs-target="#builderModal">Подробнее</a>
                                                 <a href="#!" class="catalog-card-btn catalog-card-btn2">Добавить в
                                                     корзину</a>
                                             </div>
@@ -445,7 +443,7 @@
                                         <div class="catalog-service">
                                             <h3 class="catalog-service-title">Thijs Boots</h3>
                                             <div class="catalog-card-btns">
-                                                <a href="#!" class="catalog-card-btn catalog-card-btn1">Подробнее</a>
+                                                <a href="#!" class="catalog-card-btn catalog-card-btn1" data-bs-toggle="modal" data-bs-target="#builderModal">Подробнее</a>
                                                 <a href="#!" class="catalog-card-btn catalog-card-btn2">Добавить в
                                                     корзину</a>
                                             </div>
@@ -464,7 +462,7 @@
                                         <div class="catalog-service">
                                             <h3 class="catalog-service-title">White Prince</h3>
                                             <div class="catalog-card-btns">
-                                                <a href="#!" class="catalog-card-btn catalog-card-btn1">Подробнее</a>
+                                                <a href="#!" class="catalog-card-btn catalog-card-btn1" data-bs-toggle="modal" data-bs-target="#builderModal">Подробнее</a>
                                                 <a href="#!" class="catalog-card-btn catalog-card-btn2">Добавить в
                                                     корзину</a>
                                             </div>
@@ -483,7 +481,7 @@
                                         <div class="catalog-service">
                                             <h3 class="catalog-service-title">Roman Empire</h3>
                                             <div class="catalog-card-btns">
-                                                <a href="#!" class="catalog-card-btn catalog-card-btn1">Подробнее</a>
+                                                <a href="#!" class="catalog-card-btn catalog-card-btn1" data-bs-toggle="modal" data-bs-target="#builderModal">Подробнее</a>
                                                 <a href="#!" class="catalog-card-btn catalog-card-btn2">Добавить в
                                                     корзину</a>
                                             </div>
@@ -517,44 +515,61 @@
                                 </div>
                                 <div class="col-12 col-lg-6">
                                     <div class="about-info-slide">
-                                        <div class="swiper mySwiper">
+                                        <div class="swiper aboutSlider">
                                             <div class="swiper-wrapper">
                                                 <div class="swiper-slide">
                                                     <div class="about-slide">
-                                                        <a href="#!" class="about-slide-img"><img src="images/about-slide-img.png" alt=""></a>
+                                                        <a href="#!" class="about-slide-img"><img
+                                                                src="images/about-slide-img.png" alt=""></a>
                                                         <div class="about-slide-info">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="41" height="28" viewBox="0 0 41 28" fill="none">
-                                                                <path d="M1.57962 23.8241V23.8241C1.2595 23.8241 1 24.0836 1 24.4037V26C1 26.5523 1.44772 27 2 27H39C39.5523 27 40 26.5523 40 26V24.8241C40 24.2718 39.5523 23.8241 39 23.8241H38.6752M1.57962 23.8241V17.3095M1.57962 23.8241H9.48726M1.57962 10.7948V17.3095M1.57962 10.7948H9.48726M1.57962 10.7948C0.0560509 2.39094 19.1062 0.778563 28.8217 1.02286M17.3949 10.7948V17.3095M17.3949 10.7948H9.48726M17.3949 10.7948H38.6752M17.3949 10.7948C18.0021 7.51036 21.1376 0.957714 28.8217 1.02286M17.3949 23.8241V17.3095M17.3949 23.8241H9.48726M17.3949 23.8241H38.6752M17.3949 17.3095H9.48726M1.57962 17.3095H9.48726M9.48726 17.3095V10.7948M9.48726 17.3095V23.8241M38.6752 10.7948V23.8241M38.6752 10.7948C38.5924 7.56465 36.5057 1.08801 28.8217 1.02286" stroke="white"/>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="41"
+                                                                height="28" viewBox="0 0 41 28" fill="none">
+                                                                <path
+                                                                    d="M1.57962 23.8241V23.8241C1.2595 23.8241 1 24.0836 1 24.4037V26C1 26.5523 1.44772 27 2 27H39C39.5523 27 40 26.5523 40 26V24.8241C40 24.2718 39.5523 23.8241 39 23.8241H38.6752M1.57962 23.8241V17.3095M1.57962 23.8241H9.48726M1.57962 10.7948V17.3095M1.57962 10.7948H9.48726M1.57962 10.7948C0.0560509 2.39094 19.1062 0.778563 28.8217 1.02286M17.3949 10.7948V17.3095M17.3949 10.7948H9.48726M17.3949 10.7948H38.6752M17.3949 10.7948C18.0021 7.51036 21.1376 0.957714 28.8217 1.02286M17.3949 23.8241V17.3095M17.3949 23.8241H9.48726M17.3949 23.8241H38.6752M17.3949 17.3095H9.48726M1.57962 17.3095H9.48726M9.48726 17.3095V10.7948M9.48726 17.3095V23.8241M38.6752 10.7948V23.8241M38.6752 10.7948C38.5924 7.56465 36.5057 1.08801 28.8217 1.02286"
+                                                                    stroke="white" />
                                                             </svg>
-                                                            <p class="about-slide-text">Выращивем тюльпаны в собственных теплицах</p>
+                                                            <p class="about-slide-text">Выращивем тюльпаны в собственных
+                                                                теплицах</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
                                                     <div class="about-slide">
-                                                        <a href="#!" class="about-slide-img"><img src="images/about-slide-img.png" alt=""></a>
+                                                        <a href="#!" class="about-slide-img"><img
+                                                                src="images/about-slide-img.png" alt=""></a>
                                                         <div class="about-slide-info">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="41" height="28" viewBox="0 0 41 28" fill="none">
-                                                                <path d="M1.57962 23.8241V23.8241C1.2595 23.8241 1 24.0836 1 24.4037V26C1 26.5523 1.44772 27 2 27H39C39.5523 27 40 26.5523 40 26V24.8241C40 24.2718 39.5523 23.8241 39 23.8241H38.6752M1.57962 23.8241V17.3095M1.57962 23.8241H9.48726M1.57962 10.7948V17.3095M1.57962 10.7948H9.48726M1.57962 10.7948C0.0560509 2.39094 19.1062 0.778563 28.8217 1.02286M17.3949 10.7948V17.3095M17.3949 10.7948H9.48726M17.3949 10.7948H38.6752M17.3949 10.7948C18.0021 7.51036 21.1376 0.957714 28.8217 1.02286M17.3949 23.8241V17.3095M17.3949 23.8241H9.48726M17.3949 23.8241H38.6752M17.3949 17.3095H9.48726M1.57962 17.3095H9.48726M9.48726 17.3095V10.7948M9.48726 17.3095V23.8241M38.6752 10.7948V23.8241M38.6752 10.7948C38.5924 7.56465 36.5057 1.08801 28.8217 1.02286" stroke="white"/>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="41"
+                                                                height="28" viewBox="0 0 41 28" fill="none">
+                                                                <path
+                                                                    d="M1.57962 23.8241V23.8241C1.2595 23.8241 1 24.0836 1 24.4037V26C1 26.5523 1.44772 27 2 27H39C39.5523 27 40 26.5523 40 26V24.8241C40 24.2718 39.5523 23.8241 39 23.8241H38.6752M1.57962 23.8241V17.3095M1.57962 23.8241H9.48726M1.57962 10.7948V17.3095M1.57962 10.7948H9.48726M1.57962 10.7948C0.0560509 2.39094 19.1062 0.778563 28.8217 1.02286M17.3949 10.7948V17.3095M17.3949 10.7948H9.48726M17.3949 10.7948H38.6752M17.3949 10.7948C18.0021 7.51036 21.1376 0.957714 28.8217 1.02286M17.3949 23.8241V17.3095M17.3949 23.8241H9.48726M17.3949 23.8241H38.6752M17.3949 17.3095H9.48726M1.57962 17.3095H9.48726M9.48726 17.3095V10.7948M9.48726 17.3095V23.8241M38.6752 10.7948V23.8241M38.6752 10.7948C38.5924 7.56465 36.5057 1.08801 28.8217 1.02286"
+                                                                    stroke="white" />
                                                             </svg>
-                                                            <p class="about-slide-text">Выращивем тюльпаны в собственных теплицах</p>
+                                                            <p class="about-slide-text">Выращивем тюльпаны в собственных
+                                                                теплицах</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
                                                     <div class="about-slide">
-                                                        <a href="#!" class="about-slide-img"><img src="images/about-slide-img.png" alt=""></a>
+                                                        <a href="#!" class="about-slide-img"><img
+                                                                src="images/about-slide-img.png" alt=""></a>
                                                         <div class="about-slide-info">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="41" height="28" viewBox="0 0 41 28" fill="none">
-                                                                <path d="M1.57962 23.8241V23.8241C1.2595 23.8241 1 24.0836 1 24.4037V26C1 26.5523 1.44772 27 2 27H39C39.5523 27 40 26.5523 40 26V24.8241C40 24.2718 39.5523 23.8241 39 23.8241H38.6752M1.57962 23.8241V17.3095M1.57962 23.8241H9.48726M1.57962 10.7948V17.3095M1.57962 10.7948H9.48726M1.57962 10.7948C0.0560509 2.39094 19.1062 0.778563 28.8217 1.02286M17.3949 10.7948V17.3095M17.3949 10.7948H9.48726M17.3949 10.7948H38.6752M17.3949 10.7948C18.0021 7.51036 21.1376 0.957714 28.8217 1.02286M17.3949 23.8241V17.3095M17.3949 23.8241H9.48726M17.3949 23.8241H38.6752M17.3949 17.3095H9.48726M1.57962 17.3095H9.48726M9.48726 17.3095V10.7948M9.48726 17.3095V23.8241M38.6752 10.7948V23.8241M38.6752 10.7948C38.5924 7.56465 36.5057 1.08801 28.8217 1.02286" stroke="white"/>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="41"
+                                                                height="28" viewBox="0 0 41 28" fill="none">
+                                                                <path
+                                                                    d="M1.57962 23.8241V23.8241C1.2595 23.8241 1 24.0836 1 24.4037V26C1 26.5523 1.44772 27 2 27H39C39.5523 27 40 26.5523 40 26V24.8241C40 24.2718 39.5523 23.8241 39 23.8241H38.6752M1.57962 23.8241V17.3095M1.57962 23.8241H9.48726M1.57962 10.7948V17.3095M1.57962 10.7948H9.48726M1.57962 10.7948C0.0560509 2.39094 19.1062 0.778563 28.8217 1.02286M17.3949 10.7948V17.3095M17.3949 10.7948H9.48726M17.3949 10.7948H38.6752M17.3949 10.7948C18.0021 7.51036 21.1376 0.957714 28.8217 1.02286M17.3949 23.8241V17.3095M17.3949 23.8241H9.48726M17.3949 23.8241H38.6752M17.3949 17.3095H9.48726M1.57962 17.3095H9.48726M9.48726 17.3095V10.7948M9.48726 17.3095V23.8241M38.6752 10.7948V23.8241M38.6752 10.7948C38.5924 7.56465 36.5057 1.08801 28.8217 1.02286"
+                                                                    stroke="white" />
                                                             </svg>
-                                                            <p class="about-slide-text">Выращивем тюльпаны в собственных теплицах</p>
+                                                            <p class="about-slide-text">Выращивем тюльпаны в собственных
+                                                                теплицах</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="swiper-button-next"><img src="images/icons/arrow-right.svg" alt=""></div>
-                                            <div class="swiper-button-prev"><img src="images/icons/arrow-left.svg" alt=""></div>
+                                            <div class="swiper-button-next"><img src="images/icons/arrow-right.svg"
+                                                    alt=""></div>
+                                            <div class="swiper-button-prev"><img src="images/icons/arrow-left.svg"
+                                                    alt=""></div>
                                         </div>
                                     </div>
                                 </div>
@@ -565,22 +580,26 @@
                             <div class="row">
                                 <div class="col-12 col-sm6 col-md-4 col-lg-3">
                                     <div class="about-box">
-                                        <p class="about-box-text">Сохранение свежести до 15 дней при комнатной температуре</p>
+                                        <p class="about-box-text">Сохранение свежести до 15 дней при комнатной
+                                            температуре</p>
                                     </div>
                                 </div>
                                 <div class="col-12 col-sm6 col-md-4 col-lg-3">
                                     <div class="about-box">
-                                        <p class="about-box-text">Абсолютно стерильная среда выращивания без вредителей и болезней </p>
+                                        <p class="about-box-text">Абсолютно стерильная среда выращивания без вредителей
+                                            и болезней </p>
                                     </div>
                                 </div>
                                 <div class="col-12 col-sm6 col-md-4 col-lg-3">
                                     <div class="about-box">
-                                        <p class="about-box-text">Сохранение всего цветка  благодаря аккуратной ручной фасовке</p>
+                                        <p class="about-box-text">Сохранение всего цветка благодаря аккуратной ручной
+                                            фасовке</p>
                                     </div>
                                 </div>
                                 <div class="col-12 col-sm6 col-md-4 col-lg-3">
                                     <div class="about-box">
-                                        <p class="about-box-text">Хранение, отгрузка, упаковка при комфортной температуре около 2 °C</p>
+                                        <p class="about-box-text">Хранение, отгрузка, упаковка при комфортной
+                                            температуре около 2 °C</p>
                                     </div>
                                 </div>
                             </div>
@@ -603,17 +622,22 @@
                                 <div class="work-cards">
                                     <div class="work-card">
                                         <h2 class="work-card-title">Заявка на сайте</h2>
-                                        <p class="work-card-text">Оформите заказ на сайте или позвоните нам. С вами оперативно свяжется наш менеджер, ответит на все ваши вопросы и согласует заказ</p>
+                                        <p class="work-card-text">Оформите заказ на сайте или позвоните нам. С вами
+                                            оперативно свяжется наш менеджер, ответит на все ваши вопросы и согласует
+                                            заказ</p>
                                         <div class="work-card-info">
                                             <a href="#!" class="work-card-link">Оставить заявку</a>
-                                            <a href="tel:8 (929) 920-51-51" class="work-card-num"><img src="images/icons/telephone.svg" alt=""> 8 (929) 920-51-51</a>
+                                            <a href="tel:8 (929) 920-51-51" class="work-card-num"><img
+                                                    src="images/icons/telephone.svg" alt=""> 8 (929) 920-51-51</a>
                                         </div>
 
                                         <span class="work-card-number">/1</span>
                                     </div>
                                     <div class="work-card">
                                         <h2 class="work-card-title">Доставка</h2>
-                                        <p class="work-card-text">Оперативно доставим ваш заказ по Туле, Тульской области и Москве. Упаковка и хранение будет проводится строго в комфортных условиях для Ваших цветов</p>
+                                        <p class="work-card-text">Оперативно доставим ваш заказ по Туле, Тульской
+                                            области и Москве. Упаковка и хранение будет проводится строго в комфортных
+                                            условиях для Ваших цветов</p>
 
                                         <span class="work-card-number">/2</span>
                                     </div>
@@ -637,7 +661,7 @@
                     <div style="position:relative;overflow:hidden;">
                         <a href="https://yandex.uz/maps?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Yandex Xaritalar</a>
                         <a href="https://yandex.uz/maps/10832/tula-oblast/house/lesnaya_ulitsa_19/Z0EYdgZhTkYCQFtufXx1c31nYg==/?ll=38.060249%2C54.029929&utm_medium=mapframe&utm_source=maps&z=13" style="color:#eee;font-size:12px;position:absolute;top:14px;">Lеsnаyа ulitsа, 19 — Yandex Xaritalar</a>
-                        <iframe src="https://yandex.uz/map-widget/v1/?ll=38.060249%2C54.029929&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgo0NTUzNDYxNjk1EuAB0KDQvtGB0YHQuNGPLCDQotGD0LvRjNGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCDQmtC40YDQtdC10LLRgdC60LjQuSDRgNCw0LnQvtC9LCDQvNGD0L3QuNGG0LjQv9Cw0LvRjNC90L7QtSDQvtCx0YDQsNC30L7QstCw0L3QuNC1INCo0LLQsNGA0YbQtdCy0YHQutC-0LUsINC00LXRgNC10LLQvdGPINCQ0LvQtdC60YHQsNC90LTRgNC-0LLQutCwLCDQm9C10YHQvdCw0Y8g0YPQu9C40YbQsCwgMTkiCg0FDBhCFSgrWEI%2C&z=13" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+                        <iframe src="https://yandex.uz/map-widget/v1/?ll=38.060249%2C54.029929&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgo0NTUzNDYxNjk1EuAB0KDQvtGB0YHQuNGPLCDQotGD0LvRjNGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCDQmtC40YDQtdC10LLRgdC60LjQuSDRgNCw0LnQvtC9LCDQvNGD0L3QuNGG0LjQv9Cw0LvRjNC90L7QtSDQvtCx0YDQsNC30L7QstCw0L3QuNC1INCo0LLQsNGA0YbQtdCy0YHQutC-0LUsINC00LXRgNC10LLQvdGPINCQ0LvQtdC60YHQsNC90LTRgNC-0LLQutCwLCDQm9C10YHQvdCw0Y8g0YPQu9C40YbQsCwgMTkiCg0FDBhCFSgrWEI%2C&z=13"frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
                     </div>
                 </div>
                 <div class="container">
@@ -656,11 +680,12 @@
                                 <a href="#!" class="ftr-socicial-link">Taplink</a>
                             </div>
                             <div class="footer-address">
-                                <img src="images/icons/location.svg" alt=""> 
+                                <img src="images/icons/location.svg" alt="">
                                 <p>Лесная улица, 19, деревня Александровка, Тульская область</p>
                             </div>
-                            <p class="footer-text">Вы можете приехать и удостовериться в качестве наших тюльпанов лично </p>
-                            <a href="#!" class="footer-link">Записаться на просмотр</a>
+                            <p class="footer-text">Вы можете приехать и удостовериться в качестве наших тюльпанов лично
+                            </p>
+                            <a href="#!" class="footer-link" data-bs-toggle="modal" data-bs-target="#greenhouseModal">Записаться на просмотр</a>
                         </div>
                     </div>
                 </div>
@@ -685,8 +710,173 @@
     </div>
 
 
+    <!-- Registration Modal -->
+    <div class="registration-modal">
+        <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <button type="button" class="modal__close" data-bs-dismiss="modal" aria-label="Close"><img src="images/close.svg" alt=""></button>
+                    <div class="modal-body">
+                        <h1 class="registration-modal-title">Оставьте заявку и мы с Вами свяжемся</h1>
+                        <form>
+                            <div class="modal-inp-form">
+                                <input type="text" name="name" placeholder="Ваше имя" required class="register-modal-inp">
+                                <input type="email" name="email" placeholder="Ваш E-mail" required class="register-modal-inp">
+                                <input type="number" name="number" placeholder="+7 ххх ххх хх хх " required class="register-modal-inp">
+                            </div>
+                            <button type="submit" class="register-modal-btn">Оставить заявку</button>
+                            <p class="register-modal-text">Нажимая на кнопку вы соглашаетесь с политикой конфиеденциальности</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Builder Modal -->
+    <div class="builder-modal">
+        <div class="modal fade" id="builderModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <button type="button" class="modal__close" data-bs-dismiss="modal" aria-label="Close"><img src="images/close.svg" alt=""></button>
+                    <div class="modal-body">
+                        <div class="builder-slider">
+                            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper builderSlider2">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="images/builder-modal-img.png" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="images/builder-modal-img.png" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="images/builder-modal-img.png" />
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"><img src="images/icons/arrow-right.svg" alt=""></div>
+                                <div class="swiper-button-prev"><img src="images/icons/arrow-left.svg" alt=""></div>
+                            </div>
+                            <div thumbsSlider="" class="swiper builderSlider">
+                                <div class="swiper-wrapper swiper-wrapper-mini">
+                                    <div class="swiper-slide swiper__slide-mini">
+                                        <img src="images/builder-modal-img.png" />
+                                    </div>
+                                    <div class="swiper-slide swiper__slide-mini">
+                                        <img src="images/builder-modal-img.png" />
+                                    </div>
+                                    <div class="swiper-slide swiper__slide-mini">
+                                        <img src="images/builder-modal-img.png" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="builder-info">
+                            <h1 class="builder-modal-title">Body <br> Builder</h1>
+                            <span class="builder-price">40 ₽ / шт</span>
+                            <a href="#!" class="builder-link" data-bs-toggle="modal" data-bs-target="#orderModal">Добавить в корзину</a>
+                            <div class="builder-texts">
+                                <p class="builder-text">Окунитесь в весеннюю симфонию тюльпанов, где каждый бутон — это яркая нота в удивительной игре цветов. Тюльпан эн ред вестфришен привнесет в ваши букеты не только разнообразие оттенков, но и неповторимый весенний настрой.</p>
+                                <p class="builder-text">Тюльпан эн ред вестфришен превратят ваш букет в весеннюю сказку. Подарите своим клиентам радость встречи с весной, сохраняя яркость и свежесть этих красочных цветов в течение долгих дней.</p>
+                            </div>
+                            <div class="builder-info-full">
+                                Страна: НИДЕРЛАНДЫ <br>
+                                Ширина: 42 <br>
+                                Длина: 40
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Greenhouses Modal -->
+    <div class="greenhouses-modal registration-modal">
+        <div class="modal fade" id="greenhouseModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <button type="button" class="modal__close" data-bs-dismiss="modal" aria-label="Close"><img src="images/close.svg" alt=""></button>
+                    <div class="modal-body">
+                        <h1 class="registration-modal-title">Оставьте заявку на просмотр наших теплиц</h1>
+                        <img src="images/greenhouses-modal-img.png" alt="" class="greenhouses-modal-img">
+                        <form>
+                            <div class="modal-inp-form">
+                                <input type="text" name="name" placeholder="Ваше имя" required class="register-modal-inp">
+                                <input type="email" name="email" placeholder="Ваш E-mail" required class="register-modal-inp">
+                                <input type="number" name="number" placeholder="+7 ххх ххх хх хх " required class="register-modal-inp">
+                            </div>
+                            <button type="submit" class="register-modal-btn">Оставить заявку</button>
+                            <p class="register-modal-text">Нажимая на кнопку вы соглашаетесь с политикой конфиеденциальности</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Order Modal -->
+    <div class="order-modal registration-modal">
+        <div class="modal fade" id="orderModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <button type="button" class="modal__close" data-bs-dismiss="modal" aria-label="Close"><img src="images/close.svg" alt=""></button>
+                    <div class="modal-body">
+                        <h1 class="registration-modal-title">Ваш заказ: </h1>
+                        <div class="order-boxs">
+                            <div class="order-box">
+                                <div class="order-box-img">
+                                    <img src="images/order-box-img1.svg" alt="">
+                                    <span>Body Builder</span>
+                                </div>
+                                <div class="order-buy">
+                                    <span class="modal__buy-price-spn">40 ₽</span>
+                                    <div class="modal__buy-count">
+                                        <button class="modal__buy-count-btn addCount">+</button>
+                                        <span class="resultCount">0</span>
+                                        <button class="modal__buy-count-btn removeCount">-</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="order-box">
+                                <div class="order-box-img">
+                                    <img src="images/order-box-img2.svg" alt="">
+                                    <span>Orange sherna</span>
+                                </div>
+                                <div class="order-buy">
+                                    <span class="modal__buy-price-spn">40000 ₽</span>
+                                    <div class="modal__buy-count">
+                                        <button class="modal__buy-count-btn addCount">+</button>
+                                        <span class="resultCount">1000</span>
+                                        <button class="modal__buy-count-btn removeCount">-</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="order-discount">
+                                <div class="discount-price">
+                                    <b>Итого: 39600 ₽</b>
+                                    <span>44 000 ₽</span>
+                                </div>
+                                <p>Ваша скидка 10%</p>
+                            </div>
+                        </div>
+                        <form>
+                            <div class="modal-inp-form">
+                                <input type="text" name="name" placeholder="Ваше имя" required class="register-modal-inp">
+                                <input type="email" name="email" placeholder="Ваш E-mail" required class="register-modal-inp">
+                                <input type="number" name="number" placeholder="+7 ххх ххх хх хх " required class="register-modal-inp">
+                            </div>
+                            <button type="submit" class="register-modal-btn">Оставить заявку</button>
+                            <p class="register-modal-text">Нажимая на кнопку вы соглашаетесь с политикой конфиеденциальности</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
