@@ -9,6 +9,7 @@ body{
     font-weight: 400;
 	font-style: normal;
 	line-height: normal;
+    overflow-x: hidden;
 }
 
 a,
@@ -58,6 +59,12 @@ circle {
 	transition: .3s all ease;
 }
 
+.container{
+    width: 100%;
+    min-width: 1228px;
+    padding: 0px 30px;
+    overflow: hidden;
+}
 
 /* Header start */
 .header{
@@ -149,6 +156,7 @@ circle {
     background-size: cover;
     object-fit: cover;
     width: 100%;
+    min-width: 1228px;
     padding: 133px 0;
 }
 .main-sec .main-shop-link{
@@ -368,6 +376,7 @@ circle {
     background-image: url(../images/about-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    min-width: 1228px;
 }
 .about .about-info{
     margin-bottom: 57px;
@@ -532,6 +541,7 @@ circle {
 /* Location start */
 .location{
     position: relative;
+    min-width: 1228px;
 }
 .location-wrap iframe{
     height: 630px;
@@ -540,7 +550,7 @@ circle {
 .location .container{
     position: absolute;
     top: 83px;
-    left: 63%;
+    left: 50%;
     max-width: 800px;
     transform: translate(-50%);
 }
@@ -697,7 +707,7 @@ input::-webkit-inner-spin-button {
     gap: 0;
 }
 .greenhouses-modal .modal-dialog{
-    max-width: 570px;
+    min-width: 570px;
     padding: 30px 0;
 }
 .greenhouses-modal .greenhouses-modal-img{
@@ -714,6 +724,7 @@ input::-webkit-inner-spin-button {
 }
 .builder-modal .modal-dialog{
     padding: 50px 0;
+    margin: 0 auto;
 }
 .builder-modal .modal-body{
     padding: 53px 68px;
@@ -799,7 +810,8 @@ input::-webkit-inner-spin-button {
 
 /* Order modal */
 .order-modal .modal-dialog{
-    max-width: 570px;
+    min-width: 570px;
+    padding: 30px 0;
 }
 .order-modal .modal-body{
     gap: 0px;
@@ -884,6 +896,7 @@ input::-webkit-inner-spin-button {
 }
 /* Foooter start */
 footer{
+    min-width: 1228px;
     padding: 33px 0;
     background: #222;
 }
